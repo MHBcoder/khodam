@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: IRANSansX;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #0b0b0b;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+}
+
+.sliders{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.mySwiper {
+  width: 100%;
+  height: 200px;
+}
+.mySwiper2 {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+}
+
+.slider-title {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-title2 {
+  text-align: right;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+swiper-slide img {
+  display: block;
+  width: 135px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.title-img {
+  font-size: 14px;
+  color: #cecece;
+  margin-right: 4px;
+}
+
+.below-title {
+  font-size: 13px;
+  color: #7d7d7d;
+  margin-right: 4px;
+}
+
+
+.eid{
+    width: 100%;
+}
+.eid img{
+    width: 100%;
+}

@@ -1,21 +1,26 @@
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
-  direction: "vertical",
-  loop: true,
+const newData = [
+  {img: "./assets/img/sheikh-mahmood-abadi.jpg", name: "شیخ علی محمود آبادی", title: "شهادت حضرت امام هادی (ع)"},
+  {img: "./assets/img/khiabani.jpg", name: "کربلایی وحید خیابانی", title: "شهادت حضرت زهرا (س)"},
+  {img: "./assets/img/taha.jpg", name: "کربلایی طاها بیک محمدلو", title: "شهادت حضرت زهرا (س)"},
+];
+const newAudioContainder = document.getElementById('tazeh')
+newData.forEach(data => {
+  let swiperSlide = document.createElement('swiper-slide');
+  swiperSlide.className = 'slider-title2';
 
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
+  let imgElem = document.createElement('img');
+  imgElem.src = data.img;
 
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+  let spanName = document.createElement('span');
+  spanName.innerHTML = data.name;
+  spanName.className = 'title-img';
+  
+  let spanTitle = document.createElement('span');
+  spanTitle.innerHTML = data.title;
+  spanTitle.className = 'below-title';
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
+  swiperSlide.append(imgElem, spanName, spanTitle);
+  newAudioContainder.append(swiperSlide)
+  console.log(newAudioContainder);
 });
+

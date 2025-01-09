@@ -19,9 +19,9 @@ body {
   margin: 0;
 }
 
-.sliders{
-    width: 100%;
-    padding: 0 15px;
+.sliders {
+  width: 100%;
+  padding: 0 15px;
 }
 
 .mySwiper {
@@ -77,19 +77,19 @@ body {
   color: #7d7d7d;
 }
 
-.title-slider{
-    text-align: right;
-    margin-top: 20px;
-    margin-bottom: 14px;
-    color: #efeff1;
-    font-size: 17px;
+.title-slider {
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 14px;
+  color: #efeff1;
+  font-size: 17px;
 }
 
-.eid{
-    width: 100%;
+.eid {
+  width: 100%;
 }
-.eid img{
-    width: 100%;
+.eid img {
+  width: 100%;
 }
 
 .detail {
@@ -112,4 +112,41 @@ body {
   font-size: 20px;
   color: #fff;
   margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+audio {
+  width: 80%;
+  margin-top: 35px;
+}
+
+.detail img {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.detail p {
+  width: 80%;
+  line-height: 2;
+  font-size: 14px !important;
+  color: #c0c0c0 !important;
+  margin-top: 35px;
+  direction: rtl;
+}
+
+.btn-slice {
+  width: 80%;
+  background-color: black;
+  border: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
 }

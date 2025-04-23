@@ -1,4 +1,4 @@
-const newData = [
+const newSoundsData = [
   {
     id: 1,
     img: "./assets/img/sheikh-mahmood-abadi.jpg",
@@ -74,7 +74,7 @@ const newData = [
 ];
 
 const newAudioContainder = document.getElementById("tazeh");
-newData.forEach((data) => {
+newSoundsData.forEach((data) => {
   let swiperSlide = document.createElement("swiper-slide");
   swiperSlide.className = "slider-title2";
   swiperSlide.addEventListener("click", (e) => handleClick(e, data.id));
@@ -296,5 +296,5 @@ function renderPageDetail() {
 
 function slicedParagraf(paragraf) {
   let slicedParagraf = paragraf.innerHTML.slice(0, 140);
-  paragraf.innerHTML =  `${slicedParagraf}...`;
+  paragraf.innerHTML = `${slicedParagraf}...`;
 }

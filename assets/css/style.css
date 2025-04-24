@@ -114,7 +114,7 @@ swiper-slide img {
 
 swiper-slide .title {
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 400 !important;
   color: #cecece;
   line-height: 110%;
   padding: 5px;
@@ -123,7 +123,7 @@ swiper-slide .title {
 swiper-slide .sub-title {
   font-size: 12px;
   color: #7d7d7d;
-  font-weight: 500;
+  font-weight: 500 !important;
   padding: 0px 4px;
 }
 

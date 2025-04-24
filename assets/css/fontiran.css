@@ -83,33 +83,43 @@
   font-weight: normal;
   src: url("../fonts/woff2/IRANSansWebFaNum.woff2") format("woff2");
 }
+
 @font-face {
   font-family: yekanBakh1;
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/yekan\ bakh\ en\ 01\ hairline.woff2") format("woff2");
 }
+
 @font-face {
   font-family: yekanBakh2;
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/yekan\ bakh\ en\ 02\ thin.woff2") format("woff2");
 }
+
 @font-face {
   font-family: yekanBakh3;
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/yekan\ bakh\ en\ 03\ light.woff2") format("woff2");
 }
+
 @font-face {
   font-family: yekanBakh4;
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/yekan\ bakh\ en\ 04\ regular.woff2");
 }
+
 @font-face {
   font-family: yekanBakh5;
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/yekan\ bakh\ en\ 05\ medium.woff2");
+}
+
+@font-face {
+  font-family: moraba;
+  src: url(../fonts/morabba.woff);
 }
